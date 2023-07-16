@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="icons8-tech-16.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>
+        Portfolio Website
+    </title>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Portfolio Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                   <li class="nav-item">
+                    <a href="#about" class="nav-link"><span><i class="bi bi-person"></i></span> About</a>
+                   </li>
+                   <li class="nav-item">
+                    <a href="#experience" class="nav-link"><span><i class="bi bi-tools"></i></span> Experirnce</a>
+                   </li>
+                   <li class="nav-item">
+                    <a href="#contact" class="nav-link"><span><i class="bi bi-telephone"></i></span> Contact</a>
+                   </li>
+                </ul>
+            </div>
+        </div> 
+    </nav>
+    <!--slideshow-->
+    <section class="bg-dark text-light p-5 p-lg-5 text-center text-sm-start mt-5">
+        
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>I'm Emmanuel Dzorkah,</h1>
+                    <h1 class="text-warning">a Simple Tech Professional.</h1>
+                    <button class="btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enqire">
+                        Enquiry
+                    </button>
+                </div>
+
+                <div id="carouselSlidesOnly" class="carousel slide m-4 " data-bs-ride="carousel" data-interval="false">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Untitled design (1).png" class="d-block w-10 alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Untitled design (2).png" class="d-block w-10 alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Untitled design.png" class="d-block w-10 alt="...">
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About-->
+    <section class="p-5 bg-secondary " id="about">
+        <div class="container">
+            <h2 class="text-center text-light">ABOUT</h2>
+            <p class="lead text-start text-white my-4">
+                I developed interest in Tech at age 12 during a seminar on how the world is revolving around 
+                Technology. That moment became a life changing opportunity for me. Imediately after Basic
+                School,I entered into High School with Information Technology as an option among the list
+                of courses I offered.
+            </p>
+            <p class="lead text-start text-white">
+                During this period, I was privilege learn the all aspects of Information Technology including
+                Networking Fundamentals, Hardware, Progaramming Basics and Graphic Designing. I these concepts
+                boosted my interest and I took step into learning each concept one step at a time. By the end of
+                School, I have been able to develop static web pages using just HTML and CSS. I continued
+                my research on some advance tools used in web development such as bootstrap, Javascript with
+                its frameworks, PHP, Database and APIs.
+            </p>
+            <p class="lead text-start text-white">
+                I also gained basic Knowledge in Cyber Security and Network Switching and Routing 
+                (now DataCom) with the help of CISCO and HUAWEI ACADEMY respectively. Below are some
+                institutions I'm Associated with.
+            </p>
+            <h2 class="text-center text-light my-5">INSTITUTIONS</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 shadow-lg">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="regent.png" class="rounded-circle img-fluid" alt="">
+                            <div class="card-title mb-3">REGENT GHANA</div>
+                            <a href="https://www.linkedin.com/school/regent-university-college-of-science-and-technolog"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="https://web.facebook.com/RegentGhana"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="https://regent.edu.gh/"><i class="bi bi-globe text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 shadow-lg">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="huawei-removebg-preview.png" class=" img-fluid" alt="">
+                            <div class="card-title mb-3">HUAWEI-REGENT ACADEMY</div>
+                            <a href="https://twitter.com/Huawei/"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="https://www.linkedin.com/in/kwadwo-opoku-attah-a189741b6"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="https://e.huawei.com/"><i class="bi bi-globe text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 shadow-lg">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="security-removebg-preview.png" class="img-fluid" alt="">
+                            <div class="card-title mb-3">CISCO INTRO TO CYB-SECURITY</div>
+                            <a href="https://web.facebook.com/cisconetworkingacademy"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                            <a href="https://www.linkedin.com/company/cisco/"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="https://www.cisco.com/"><i class="bi bi-globe text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 shadow-lg">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="emezak.png" class="img-fluid" alt="">
+                            <div class="card-title mb-3">EMEZACK TRAINING</div>
+                            <a href="https://www.linkedin.com/company/emezak/"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="https://www.instagram.com/emezak_/"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="https://emezak.com/"><i class="bi bi-globe text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Experinces-->
+    <section class="p-5" id="experience">
+        <div class="container">
+            <div class="row text-center g-4">
+                <h2 class="text-dark">EXPERIENCES</h2>
+                <div class="col-md">
+                    <div class="card-body bg-dark text-light shadow-lg rounded">
+                        <div class="h1 mb-3">
+                           <i class="bi bi-laptop"></i> 
+                           <i class="bi bi-globe"></i>
+                        </div>
+                        <h3 class="card-title">
+                            WEB DEVELOPMENT
+                        </h3>
+                        <p class="card-text">
+                            <li>BLog Posts</li>
+                            <li>Business websites</li>
+                            <li>Portfolio Websites</li>
+                            <li>Ecommerce Websites</li>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="col-md">
+                        <div class="card-body bg-primary text-light shadow-lg rounded">
+                            <div class="h1 mb-3">
+                               <i class="bi bi-hdd-network"></i> 
+                               <i class="bi bi-broadcast-pin"></i> 
+                            </div>
+                            <h3 class="card-title">
+                                NETWORKING
+                            </h3>
+                            <p class="card-text ">
+                                <li>Wireless Technology</li>
+                                <li>Network configuration</li>
+                                <li>Network Troubleshooting</li>
+                                <li>Enterprise Network Installation</li>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="col-md">
+                        <div class="card-body bg-danger text-light shadow-lg rounded">
+                            <div class="h1 mb-3">
+                               <i class="bi bi-globe"></i>
+                               <i class="bi bi-shield-lock"></i>
+                            </div>
+                            <h3 class="card-title">
+                                CYBER SECURITY
+                            </h3>
+                            <p class="card-text">
+                                <li>Attack Response</li>
+                                <li>Threat Detection</li>
+                                <li>Attack Prevention</li>
+                                <li>Penetration Testing</li>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-primary p-5 " id="contact">
+        <div class="container-sm">
+            <div class="row text-white d-flex g-4">
+                <h3 class="card-title text-center mb-5">
+                    CONTACT
+                </h3>
+                <div class="col-md">
+                    <div class="card-body h4">
+                        <p class="contact-item">
+                            <i class="bi bi-telephone-fill text-light"></i><span> +233 556809238</span>
+                            </p>
+                            <p>
+                                <i class="bi bi-linkedin"></i><span> Dzorkah Emmanuel</span>
+                            </p>
+                            <p>
+                                <i class="bi bi-facebook"></i><span> Dzorka Emmanuel</span>
+                            </p>
+                            <p>
+                                <i class="bi bi-envelope"></i><span> emmanueldzorka@gmail.com</span>
+                            </p>
+                        <p>
+                            <i class="bi bi-geo-alt"></i><span> Accra-Ghana</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.7222119293133!2d-0.24840912588988012!3d5.607985433126598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9a47c31c31dd%3A0x401b067e7ac30b6e!2sFirst%20Grade%20Institute!5e0!3m2!1sen!2sgh!4v1688943816578!5m2!1sen!2sgh" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="p-4 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">copyright &copy; 2023 Emmanuel Dzorkah</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+            </div>
+    </footer>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="enqire" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ModalLabel">Write your Questions Here</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="portflio.php" method="post">
+                <input class="w-100 mb-3" type="email" name="email" placeholder="Your Email" required>
+                <textarea class="w-100" name="questions">
+                </textarea>
+                <button type="button" class="btn btn-secondary mt-3" data-bs-dismiss="modal">Close</button>
+                <input type="submit" class="btn btn-primary mt-3">
+            </form>
+        </div>
+        <div class="modal-footer"></div>
+      </div>
+    </div>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
